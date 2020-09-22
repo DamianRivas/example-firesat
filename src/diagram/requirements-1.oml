@@ -1,0 +1,8 @@
+@diagram:specifier
+description <http://opencaesar.io/programs/earth-science/projects/firesat/diagrams/requirements-1> with # as req-diagram-1 {
+    uses <http://imce.jpl.nasa.gov/foundation/diagram>
+    extends <http://opencaesar.io/programs/earth-science/projects/firesat/workpackages/05/systems/pld/requirements>
+
+    @diagram:include
+    ref ri pld-functions:SensorPerformsDetectNewWildfires
+}

@@ -1,0 +1,10 @@
+@diagram:specifier
+description <http://opencaesar.io/programs/earth-science/projects/firesat/diagrams/masses-1> with # as mass-diagram-1 {
+    uses <http://imce.jpl.nasa.gov/foundation/diagram>
+    extends <http://opencaesar.io/programs/earth-science/projects/firesat/workpackages/05/systems/pld/masses>
+    
+    @diagram:include
+    @diagram:include "properties"
+    ref ci pld-masses:PayloadModuleCBEMassConstraint
+
+}
